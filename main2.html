@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Creat Your Task</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div style="background-image: url('loginBG.jpg'); background-size: cover;
+     background-repeat: no-repeat; height: 100vh; width: 100%; filter: brightness(30%);"></div>
+    <div class="center">
+        <h1>Creat Task</h1>
+        <form method="post"> 
+            <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+                <label>Task 1</label>
+            </div>
+             <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+                <label>Task 2</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+                <label>Task 3</label>
+            </div>
+            <button type="button" onclick="redirectToDashboard()">Set a Reminder</button>
+            <button type="button" onclick="redirectToDashboard2()">Add More Tasks</button>
+        </div>
+    
+</form>
+<script>
+    function redirectToDashboard() {
+        window.location.href="final.html";
+    }function redirectToDashboard2() {
+        window.location.href="main.html";
+    }
+</script>
+</body>
+</html>
